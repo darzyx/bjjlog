@@ -10,13 +10,13 @@ const FootLeft = () => (
 const FootRight = () => (
   <Menu.Menu position="right">
     <Menu.Item>
-      <Icon name="bars" />
+      <Icon name="bars" fitted size="large" />
     </Menu.Item>
   </Menu.Menu>
 );
 
 const Footer = () => (
-  <Menu>
+  <Menu secondary>
     <FootLeft />
     <FootRight />
   </Menu>

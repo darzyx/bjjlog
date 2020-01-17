@@ -10,13 +10,13 @@ const NavLeft = () => (
 const NavRight = () => (
   <Menu.Menu position="right">
     <Menu.Item>
-      <Icon name="bars" />
+      <Icon name="bars" fitted size="large" />
     </Menu.Item>
   </Menu.Menu>
 );
 
 const Navbar = () => (
-  <Menu>
+  <Menu secondary>
     <NavLeft />
     <NavRight />
   </Menu>
