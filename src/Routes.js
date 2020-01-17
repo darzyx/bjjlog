@@ -10,9 +10,7 @@ import Footer from "./components/common/Footer/index.js";
 const Routes = () => (
   <Router>
     <div>
-      <Route path="/">
-        <Navbar />
-      </Route>
+      <Navbar />
       <Container>
         <Switch>
           <Route exact path="/">
@@ -23,9 +21,7 @@ const Routes = () => (
           </Route>
         </Switch>
       </Container>
-      <Route path="/">
-        <Footer />
-      </Route>
+      <Footer />
     </div>
   </Router>
 );
