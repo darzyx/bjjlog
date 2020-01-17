@@ -1,18 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Home from "../pages/Home/index";
-import Profile from "../pages/Profile/index";
+import Home from "../pages/home/Home";
+import Profile from "../pages/profile/Profile";
 
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/profile">
-        <Profile />
-      </Route>
+      <Route exact path="/" component={Home} />
+      <Route path="/profile" component={Profile} />
     </Switch>
   </Router>
 );
