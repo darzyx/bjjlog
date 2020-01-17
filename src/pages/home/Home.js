@@ -1,24 +1,21 @@
 import React from "react";
-import { Grid, Header, Segment } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
+
+import Journal from "./journal/Journal";
+import Notifications from "./notifications/Notifications";
+import Calendar from "./calendar/Calendar";
+import Stats from "./stats/Stats";
 
 const Home = () => (
   <div>
     <Grid reversed="mobile" stackable columns={2}>
       <Grid.Column width={8}>
-        <Header as="h2">Journal</Header>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
+        <Journal />
       </Grid.Column>
       <Grid.Column width={8}>
-        <Header as="h2">Alerts</Header>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Header as="h2">Stats</Header>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-        <Header as="h2">Calendar</Header>
-        <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
+        <Notifications />
+        <Calendar />
+        <Stats />
       </Grid.Column>
     </Grid>
   </div>
