@@ -3,7 +3,7 @@ import { Icon, Menu } from "semantic-ui-react";
 
 const NavLeft = () => (
   <>
-    <Menu.Item header>BJJ Log</Menu.Item>
+    <Menu.Item header>BJJLog</Menu.Item>
   </>
 );
 
