@@ -4,7 +4,7 @@ import { Grid, Header, Icon, Segment, Statistic } from "semantic-ui-react";
 const Stats = () => (
   <>
     <Header as="h3">
-      <Icon name="chart line" />
+      <Icon name="chart bar outline" />
       Stats
     </Header>
     <Segment>
@@ -13,7 +13,7 @@ const Stats = () => (
           <center>
             <Statistic>
               <Statistic.Value>143</Statistic.Value>
-              <Statistic.Label>Hours</Statistic.Label>
+              <Statistic.Label>Stonks</Statistic.Label>
             </Statistic>
           </center>
         </Grid.Column>
@@ -23,7 +23,29 @@ const Stats = () => (
               <Statistic.Value>
                 <Icon name="chart pie" />
               </Statistic.Value>
-              <Statistic.Label>Ratio</Statistic.Label>
+              <Statistic.Label>Only</Statistic.Label>
+            </Statistic>
+          </center>
+        </Grid.Column>
+      </Grid>
+      <Grid columns={2}>
+        <Grid.Column width={8}>
+          <center>
+            <Statistic>
+              <Statistic.Value>
+                <Icon name="chart line" />
+              </Statistic.Value>
+              <Statistic.Label>Go</Statistic.Label>
+            </Statistic>
+          </center>
+        </Grid.Column>
+        <Grid.Column width={8}>
+          <center>
+            <Statistic>
+              <Statistic.Value>
+                <Icon name="chart bar" />
+              </Statistic.Value>
+              <Statistic.Label>Up</Statistic.Label>
             </Statistic>
           </center>
         </Grid.Column>
