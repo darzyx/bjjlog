@@ -7,7 +7,11 @@ const Calendar = () => (
       <Icon name="calendar" />
       Calendar
     </Header>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
+    <Segment>
+      <center>
+        <p>[calendar goes here]</p>
+      </center>
+    </Segment>
   </>
 );
 
