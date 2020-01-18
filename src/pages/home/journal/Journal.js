@@ -1,14 +1,16 @@
 import React from "react";
-import { Header, Segment } from "semantic-ui-react";
+import { Header } from "semantic-ui-react";
+
+import Entry from "./Entry";
 
 const Journal = () => (
   <>
     <Header as="h2">Journal</Header>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
+    <Entry />
+    <Entry />
+    <Entry />
+    <Entry />
+    <Entry />
   </>
 );
 
