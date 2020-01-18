@@ -1,9 +1,12 @@
 import React from "react";
-import { Header, Segment } from "semantic-ui-react";
+import { Header, Icon, Segment } from "semantic-ui-react";
 
 const Stats = () => (
   <>
-    <Header as="h2">Stats</Header>
+    <Header as="h3">
+      <Icon name="chart line" />
+      Stats
+    </Header>
     <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
   </>
 );

@@ -1,9 +1,12 @@
 import React from "react";
-import { Header, Segment } from "semantic-ui-react";
+import { Header, Icon, Segment } from "semantic-ui-react";
 
 const Notifications = () => (
   <>
-    <Header as="h2">Notifications</Header>
+    <Header as="h3">
+      <Icon name="alarm" />
+      Notifications
+    </Header>
     <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
   </>
 );
