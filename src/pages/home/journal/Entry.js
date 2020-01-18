@@ -1,5 +1,13 @@
 import React from "react";
-import { Divider, Grid, Header, Icon, Label, Segment } from "semantic-ui-react";
+import {
+  Button,
+  Divider,
+  Grid,
+  Header,
+  Icon,
+  Label,
+  Segment
+} from "semantic-ui-react";
 
 const Entry = () => (
   <Segment>
@@ -28,6 +36,11 @@ const Entry = () => (
       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+    <Divider horizontal>
+      <div>
+        <Button circular icon="arrow down" />
+      </div>
+    </Divider>
     <Divider hidden />
     <Label.Group>
       <Label>un</Label>

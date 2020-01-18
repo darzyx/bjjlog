@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Icon, Segment } from "semantic-ui-react";
+import { Header, Icon, Segment, Statistic } from "semantic-ui-react";
 
 const Stats = () => (
   <>
@@ -7,7 +7,14 @@ const Stats = () => (
       <Icon name="chart line" />
       Stats
     </Header>
-    <Segment>Pellentesque habitant morbi tristique senectus.</Segment>
+    <Segment>
+      <center>
+        <Statistic>
+          <Statistic.Value>217</Statistic.Value>
+          <Statistic.Label>Hours</Statistic.Label>
+        </Statistic>
+      </center>
+    </Segment>
   </>
 );
 
