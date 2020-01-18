@@ -1,12 +1,13 @@
 import React from "react";
-import { Divider, Grid, Header, Icon, Segment } from "semantic-ui-react";
+import { Divider, Grid, Header, Icon, Label, Segment } from "semantic-ui-react";
 
 const Entry = () => (
   <Segment>
     <Grid columns={2}>
       <Grid.Column width={12}>
-        <Header as="h4" textAlign="left">
-          Example Journal Entry Title
+        <Header as="h4">
+          Example Title
+          <Header.Subheader>12/25/19</Header.Subheader>
         </Header>
       </Grid.Column>
       <Grid.Column width={4}>
@@ -27,9 +28,13 @@ const Entry = () => (
       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    <Header as="h6" color="grey" textAlign="left">
-      12/25/19
-    </Header>
+    <Divider hidden />
+    <Label.Group>
+      <Label>un</Label>
+      <Label>deux</Label>
+      <Label>trois</Label>
+      <Label>quatre</Label>
+    </Label.Group>
   </Segment>
 );
 
