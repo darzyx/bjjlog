@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Icon, Menu } from "semantic-ui-react";
 
 const Navbar = () => (
@@ -11,26 +12,34 @@ const Navbar = () => (
       style={{ border: "none", borderRadius: "0" }}
     >
       <Menu.Item
+        as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
+        to="/"
       >
         <Icon color="grey" name="home" fitted size="large" />
       </Menu.Item>
       <Menu.Item
+        as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
+        to="/data"
       >
         <Icon color="grey" name="pie chart" fitted size="large" />
       </Menu.Item>
       <Menu.Item
+        as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
+        to="/write"
       >
         <Icon color="grey" name="write" fitted size="large" />
       </Menu.Item>
       <Menu.Item
+        as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
+        to="/settings"
       >
         <Icon color="grey" name="options" fitted size="large" />
       </Menu.Item>

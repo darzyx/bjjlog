@@ -1,15 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Container } from "semantic-ui-react";
 
+import Routes from "./Routes";
 import Navbar from "./Navbar";
-import Routes from "../common/Routes";
 
 const App = () => (
   <div>
-    <Container>
-      <Routes />
-    </Container>
-    <Navbar />
+    <Router>
+      <div>
+        <Container>
+          <Routes />
+        </Container>
+        <Navbar />
+      </div>
+    </Router>
   </div>
 );
 
