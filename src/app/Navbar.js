@@ -1,27 +1,23 @@
 import React from "react";
 import { Icon, Menu } from "semantic-ui-react";
 
-const NavLeft = () => (
-  <>
-    <Menu.Item>
-      <Icon name="bomb" fitted size="large" />
-    </Menu.Item>
-  </>
-);
-
-const NavRight = () => (
-  <Menu.Menu position="right">
-    <Menu.Item>
-      <Icon name="bars" fitted size="large" />
-    </Menu.Item>
-  </Menu.Menu>
-);
-
 const Navbar = () => (
-  <Menu secondary>
-    <NavLeft />
-    <NavRight />
-  </Menu>
+  <div style={{ position: "fixed", bottom: "0", left: "0", width: "100%" }}>
+    <Menu borderless fluid icon widths={4}>
+      <Menu.Item onClick={() => console.log("Click!")}>
+        <Icon color="grey" name="home" fitted size="large" />
+      </Menu.Item>
+      <Menu.Item onClick={() => console.log("Click!")}>
+        <Icon color="grey" name="pie chart" fitted size="large" />
+      </Menu.Item>
+      <Menu.Item onClick={() => console.log("Click!")}>
+        <Icon color="grey" name="write" fitted size="large" />
+      </Menu.Item>
+      <Menu.Item onClick={() => console.log("Click!")}>
+        <Icon color="grey" name="options" fitted size="large" />
+      </Menu.Item>
+    </Menu>
+  </div>
 );
 
 export default Navbar;
