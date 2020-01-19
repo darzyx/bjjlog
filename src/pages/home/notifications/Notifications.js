@@ -3,7 +3,7 @@ import { Grid, Header, Icon, Segment } from "semantic-ui-react";
 
 const Notifications = () => (
   <>
-    <Header as="h3">Notifications</Header>
+    <Header as="h2">Notifications</Header>
     <Segment>
       <Grid columns={2}>
         <Grid.Column width={12}>

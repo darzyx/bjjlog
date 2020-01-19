@@ -3,7 +3,9 @@ import { Icon, Menu } from "semantic-ui-react";
 
 const NavLeft = () => (
   <>
-    <Menu.Item header>BJJLog</Menu.Item>
+    <Menu.Item>
+      <Icon name="bomb" fitted size="large" />
+    </Menu.Item>
   </>
 );
 

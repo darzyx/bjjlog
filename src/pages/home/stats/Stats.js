@@ -3,7 +3,7 @@ import { Grid, Header, Icon, Segment, Statistic } from "semantic-ui-react";
 
 const Stats = () => (
   <>
-    <Header as="h3">Stats</Header>
+    <Header as="h2">Stats</Header>
     <Segment>
       <Grid columns={2}>
         <Grid.Column width={8}>

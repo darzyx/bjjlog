@@ -6,9 +6,9 @@ import Routes from "../common/Routes";
 
 const App = () => (
   <div>
-    <Navbar />
-    <Divider hidden />
     <Container>
+      <Navbar />
+      <Divider hidden />
       <Routes />
     </Container>
   </div>
