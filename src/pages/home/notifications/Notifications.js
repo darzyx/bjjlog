@@ -18,7 +18,7 @@ const Notifications = () => (
       <br />
       <Card.Header>Welcome to BJJLog!</Card.Header>
       <Card.Description>
-        <Link to="/">Take a quick tour →</Link>
+        <Link to="/introduction">Take a quick tour →</Link>
       </Card.Description>
     </Card.Content>
   </Card>
