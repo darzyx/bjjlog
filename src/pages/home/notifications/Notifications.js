@@ -1,30 +1,27 @@
 import React from "react";
-import { Grid, Header, Icon, Segment } from "semantic-ui-react";
+import { Link } from "react-router-dom";
+import { Card, Grid, Icon } from "semantic-ui-react";
 
 const Notifications = () => (
-  <Segment>
-    <Grid columns={2}>
-      <Grid.Column width={12}>
-        <Header as="h4">
-          <Header.Subheader>1/5</Header.Subheader>
-        </Header>
-      </Grid.Column>
-      <Grid.Column width={4}>
-        <Header as="h4" textAlign="right">
-          <Header.Subheader>
+  <Card centered fluid>
+    <Card.Content>
+      <Grid columns={2}>
+        <Grid.Column width={8}>
+          <Card.Meta textAlign="left">1/5</Card.Meta>
+        </Grid.Column>
+        <Grid.Column width={8}>
+          <Card.Meta textAlign="right">
             <Icon fitted name="close" />
-          </Header.Subheader>
-        </Header>
-      </Grid.Column>
-    </Grid>
-    <p style={{ margin: "15px 0" }}>
-      Welcome to BJJLog! Are you in for a quick tour? Click here to get things
-      started.{" "}
-      <span aria-label="sparkles" role="img">
-        ✨
-      </span>
-    </p>
-  </Segment>
+          </Card.Meta>
+        </Grid.Column>
+      </Grid>
+      <br />
+      <Card.Header>Welcome to BJJLog!</Card.Header>
+      <Card.Description>
+        <Link to="/">Take a quick tour →</Link>
+      </Card.Description>
+    </Card.Content>
+  </Card>
 );
 
 export default Notifications;
