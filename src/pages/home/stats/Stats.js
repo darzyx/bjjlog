@@ -19,7 +19,7 @@ const Stats = () => (
     </center>
     <Divider hidden />
     <Grid columns={2}>
-      <Grid.Row>
+      <Grid.Row style={{ padding: "5px 0" }}>
         <Grid.Column width={4}>
           <Header as="h5">Rank</Header>
         </Grid.Column>
@@ -29,7 +29,7 @@ const Stats = () => (
           </Header>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row>
+      <Grid.Row style={{ padding: "5px 0" }}>
         <Grid.Column width={4}>
           <Header as="h5">Hours</Header>
         </Grid.Column>
@@ -39,7 +39,7 @@ const Stats = () => (
           </Header>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row>
+      <Grid.Row style={{ padding: "5px 0" }}>
         <Grid.Column width={6}>
           <Header as="h5">Breakdown</Header>
         </Grid.Column>
@@ -49,7 +49,7 @@ const Stats = () => (
           </Header>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row>
+      <Grid.Row style={{ padding: "5px 0" }}>
         <Grid.Column width={4}>
           <Header as="h5">Entries</Header>
         </Grid.Column>
