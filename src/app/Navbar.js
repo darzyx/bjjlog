@@ -8,7 +8,7 @@ const Navbar = () => (
       borderless
       fluid
       icon
-      widths={4}
+      widths={3}
       style={{ border: "none", borderRadius: "0" }}
     >
       <Menu.Item
@@ -23,7 +23,7 @@ const Navbar = () => (
         as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
-        to="/data"
+        to="/profile"
       >
         <Icon color="grey" name="pie chart" fitted size="large" />
       </Menu.Item>
@@ -31,17 +31,9 @@ const Navbar = () => (
         as={Link}
         onClick={() => console.log("Click!")}
         style={{ borderRadius: "0" }}
-        to="/write"
+        to="/post"
       >
         <Icon color="grey" name="write" fitted size="large" />
-      </Menu.Item>
-      <Menu.Item
-        as={Link}
-        onClick={() => console.log("Click!")}
-        style={{ borderRadius: "0" }}
-        to="/settings"
-      >
-        <Icon color="grey" name="options" fitted size="large" />
       </Menu.Item>
     </Menu>
   </div>
