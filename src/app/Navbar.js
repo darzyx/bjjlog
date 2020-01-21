@@ -8,7 +8,7 @@ const Navbar = () => (
       borderless
       fluid
       icon
-      widths={4}
+      widths={5}
       style={{ border: "none", borderRadius: "0" }}
     >
       <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/">
@@ -16,6 +16,9 @@ const Navbar = () => (
       </Menu.Item>
       <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/profile">
         <Icon color="grey" name="user circle" fitted size="large" />
+      </Menu.Item>
+      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/settings">
+        <Icon color="grey" name="options" fitted size="large" />
       </Menu.Item>
       <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/journal">
         <Icon color="grey" name="book" fitted size="large" />
