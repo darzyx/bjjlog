@@ -5,13 +5,17 @@ const Techniques = () => (
   <>
     <Header as="h2">Techniques</Header>
     <Label.Group>
-      <Label>un</Label>
-      <Label>deux</Label>
-      <Label>trois</Label>
-      <Label>quatre</Label>
-      <Label>cinq</Label>
-      <Label>six</Label>
-      <Label>sept</Label>
+      <Label>Lorem</Label>
+      <Label>Ipsum</Label>
+      <Label>Dolor</Label>
+      <Label>Sit</Label>
+      <Label>Amet</Label>
+      <Label>Consectetur</Label>
+      <Label>Adipiscing</Label>
+      <Label>Elit</Label>
+      <Label>Sed</Label>
+      <Label>Do</Label>
+      <Label>Eiusmod</Label>
     </Label.Group>
   </>
 );

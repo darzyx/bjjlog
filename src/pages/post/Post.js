@@ -17,13 +17,17 @@ const Post = () => (
       </Form.Group>
       <Form.Input label="Techniques" placeholder="Techniques" />
       <Label.Group>
-        <Label>un</Label>
-        <Label>deux</Label>
-        <Label>trois</Label>
-        <Label>quatre</Label>
-        <Label>cinq</Label>
-        <Label>six</Label>
-        <Label>sept</Label>
+        <Label>Lorem</Label>
+        <Label>Ipsum</Label>
+        <Label>Dolor</Label>
+        <Label>Sit</Label>
+        <Label>Amet</Label>
+        <Label>Consectetur</Label>
+        <Label>Adipiscing</Label>
+        <Label>Elit</Label>
+        <Label>Sed</Label>
+        <Label>Do</Label>
+        <Label>Eiusmod</Label>
       </Label.Group>
       <Form.TextArea label="Notes" placeholder="Notes" />
       <Form.Button fluid type="submit">
