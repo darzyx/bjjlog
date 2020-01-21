@@ -9,6 +9,8 @@ const Journal = () => (
     <Entry />
     <Entry />
     <Entry />
+    <Entry />
+    <Entry />
   </>
 );
 
