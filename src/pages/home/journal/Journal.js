@@ -5,7 +5,7 @@ import Entry from "./Entry";
 
 const Journal = () => (
   <>
-    <Header as="h2">Journal</Header>
+    <Header as="h3">Journal</Header>
     <Entry />
     <Entry />
     <Entry />

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Grid, Icon } from "semantic-ui-react";
+import { Card, Grid, Header, Icon } from "semantic-ui-react";
 
 const Notifications = () => (
   <Card centered fluid>
@@ -16,9 +16,14 @@ const Notifications = () => (
         </Grid.Column>
       </Grid>
       <br />
-      <Card.Header>Welcome to BJJLog!</Card.Header>
+      <Card.Header
+        as="h4"
+        style={{ fontSize: "1.07142857rem", marginTop: "0" }}
+      >
+        Welcome to BJJLog!
+      </Card.Header>
       <Card.Description>
-        <Link to="/introduction">Take a quick tour →</Link>
+        <Link to="/introduction">Let's get started! Take a quick tour →</Link>
       </Card.Description>
     </Card.Content>
   </Card>

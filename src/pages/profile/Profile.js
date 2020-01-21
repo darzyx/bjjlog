@@ -9,7 +9,8 @@ import {
 } from "semantic-ui-react";
 
 const Profile = () => (
-  <div>
+  <>
+    <Header as="h2">Profile</Header>
     <Segment basic>
       <center>
         <Statistic size="huge">
@@ -62,7 +63,7 @@ const Profile = () => (
         </Grid.Row>
       </Grid>
     </Segment>
-  </div>
+  </>
 );
 
 export default Profile;

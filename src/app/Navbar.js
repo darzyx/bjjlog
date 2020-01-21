@@ -17,7 +17,7 @@ const Navbar = () => (
       <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/profile">
         <Icon color="grey" name="user circle" fitted size="large" />
       </Menu.Item>
-      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/settings">
+      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/account">
         <Icon color="grey" name="options" fitted size="large" />
       </Menu.Item>
       <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/journal">

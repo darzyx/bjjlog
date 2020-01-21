@@ -4,7 +4,7 @@ import { Header, Label } from "semantic-ui-react";
 
 const Techniques = () => (
   <>
-    <Header as="h2">Techniques</Header>
+    <Header as="h3">Techniques</Header>
     <Label.Group>
       <Label as={Link} to="/">
         Lorem

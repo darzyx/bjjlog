@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Checkbox, Divider, Dropdown, Grid, Header } from "semantic-ui-react";
 
 const defaultTypeOptions = [
@@ -7,9 +8,10 @@ const defaultTypeOptions = [
   { key: "2", value: "nogi", text: "No Gi" }
 ];
 
-const Settings = () => (
+const Account = () => (
   <div>
-    <Header as="h2">Settings</Header>
+    <Header as="h2">Account</Header>
+    <Header as="h3">Settings</Header>
     <Divider />
     <Grid columns={2} verticalAlign="middle">
       <Grid.Row>
@@ -68,7 +70,50 @@ const Settings = () => (
       </Grid.Row>
       <Divider style={{ margin: "0 14px" }} />
     </Grid>
+    <Header as="h3">Info</Header>
+    <Divider />
+    <Grid columns={2} verticalAlign="middle">
+      <Grid.Row>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="left">
+            Account Number
+          </Header>
+        </Grid.Column>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="right">
+            JH4289XH40
+          </Header>
+        </Grid.Column>
+      </Grid.Row>
+      <Divider style={{ margin: "0 14px" }} />
+      <Grid.Row>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="left">
+            Version
+          </Header>
+        </Grid.Column>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="right">
+            <Link to="/">0.1</Link>
+          </Header>
+        </Grid.Column>
+      </Grid.Row>
+      <Divider style={{ margin: "0 14px" }} />
+      <Grid.Row>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="left">
+            Disclosures
+          </Header>
+        </Grid.Column>
+        <Grid.Column width={8}>
+          <Header as="h5" floated="right">
+            <Link to="/">Link</Link> / <Link to="/">PDF</Link>
+          </Header>
+        </Grid.Column>
+      </Grid.Row>
+      <Divider style={{ margin: "0 14px" }} />
+    </Grid>
   </div>
 );
 
-export default Settings;
+export default Account;
