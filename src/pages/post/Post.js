@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Header, Label, Form } from "semantic-ui-react";
 
 const Post = () => (
@@ -17,17 +18,39 @@ const Post = () => (
       </Form.Group>
       <Form.Input label="Techniques" placeholder="Techniques" />
       <Label.Group>
-        <Label>Lorem</Label>
-        <Label>Ipsum</Label>
-        <Label>Dolor</Label>
-        <Label>Sit</Label>
-        <Label>Amet</Label>
-        <Label>Consectetur</Label>
-        <Label>Adipiscing</Label>
-        <Label>Elit</Label>
-        <Label>Sed</Label>
-        <Label>Do</Label>
-        <Label>Eiusmod</Label>
+        <Label as={Link} to="/">
+          Lorem
+        </Label>
+        <Label as={Link} to="/">
+          Ipsum
+        </Label>
+        <Label as={Link} to="/">
+          Dolor
+        </Label>
+        <Label as={Link} to="/">
+          Sit
+        </Label>
+        <Label as={Link} to="/">
+          Amet
+        </Label>
+        <Label as={Link} to="/">
+          Consectetur
+        </Label>
+        <Label as={Link} to="/">
+          Adipiscing
+        </Label>
+        <Label as={Link} to="/">
+          Elit
+        </Label>
+        <Label as={Link} to="/">
+          Sed
+        </Label>
+        <Label as={Link} to="/">
+          Do
+        </Label>
+        <Label as={Link} to="/">
+          Eiusmod
+        </Label>
       </Label.Group>
       <Form.TextArea label="Notes" placeholder="Notes" />
       <Form.Button fluid type="submit">
