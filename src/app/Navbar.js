@@ -25,7 +25,7 @@ const Navbar = () => (
         style={{ borderRadius: "0" }}
         to="/profile"
       >
-        <Icon color="grey" name="pie chart" fitted size="large" />
+        <Icon color="grey" name="user circle" fitted size="large" />
       </Menu.Item>
       <Menu.Item
         as={Link}
