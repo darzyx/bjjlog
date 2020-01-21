@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Grid, Header, Icon } from "semantic-ui-react";
+import { Card, Grid, Icon } from "semantic-ui-react";
 
 const Notifications = () => (
   <Card centered fluid>
