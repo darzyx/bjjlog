@@ -11,28 +11,13 @@ const Navbar = () => (
       widths={3}
       style={{ border: "none", borderRadius: "0" }}
     >
-      <Menu.Item
-        as={Link}
-        onClick={() => console.log("Click!")}
-        style={{ borderRadius: "0" }}
-        to="/"
-      >
+      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/">
         <Icon color="grey" name="home" fitted size="large" />
       </Menu.Item>
-      <Menu.Item
-        as={Link}
-        onClick={() => console.log("Click!")}
-        style={{ borderRadius: "0" }}
-        to="/profile"
-      >
+      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/profile">
         <Icon color="grey" name="user circle" fitted size="large" />
       </Menu.Item>
-      <Menu.Item
-        as={Link}
-        onClick={() => console.log("Click!")}
-        style={{ borderRadius: "0" }}
-        to="/post"
-      >
+      <Menu.Item as={Link} style={{ borderRadius: "0" }} to="/post">
         <Icon color="grey" name="write" fitted size="large" />
       </Menu.Item>
     </Menu>
