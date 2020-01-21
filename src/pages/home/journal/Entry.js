@@ -42,6 +42,9 @@ const Entry = () => (
       <Label>deux</Label>
       <Label>trois</Label>
       <Label>quatre</Label>
+      <Label>cinq</Label>
+      <Label>six</Label>
+      <Label>sept</Label>
     </Label.Group>
   </Segment>
 );
