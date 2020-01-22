@@ -8,6 +8,9 @@ import {
   Statistic
 } from "semantic-ui-react";
 
+import radarImg from "./img/radar.png";
+import pieImg from "./img/pie.png";
+
 const Profile = () => (
   <>
     <Header as="h2">Profile</Header>
@@ -62,6 +65,10 @@ const Profile = () => (
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      <Divider hidden />
+      <img alt="radar" src={radarImg} width="100%" />
+      <Divider hidden />
+      <img alt="pie" src={pieImg} width="100%" />
     </Segment>
   </>
 );

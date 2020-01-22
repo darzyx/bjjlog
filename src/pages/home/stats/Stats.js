@@ -1,10 +1,11 @@
 import React from "react";
-import { Icon } from "semantic-ui-react";
+
+import barsImg from "./bars.png";
 
 const Stats = () => (
   <>
     <center>
-      <Icon fitted name="line chart" size="massive" />
+      <img alt="bars" src={barsImg} width="100%" />
     </center>
   </>
 );
